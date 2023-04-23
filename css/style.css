@@ -2,12 +2,22 @@ p{
     font: 24px;
      font-family: Arial, Helvetica, sans-serif;
   }
+  .Header {
+column-count: 2;
+  }
   ul.navbar {
         list-style-type: none;
         margin: 0;
-        padding: 0;
-        background-color: #f8f8f8;
+        padding: 0.0025rem;
+        background-color: #fffffb;
         overflow: hidden;
+        display: block;
+      }
+      .ABOUTME {
+padding: 1rem;
+margin-inline-end: auto;
+color: #A54C00;
+font-weight: bold;
       }
   h2{
     color: #A54C00;
@@ -16,6 +26,7 @@ p{
   h3{
     color: #A54C00;
     font-family: Arial, Helvetica, sans-serif;
+
   }
   #heroGrid1 {
   
@@ -29,7 +40,7 @@ p{
   }
   .profilecontent{
     padding: 50px;
-    text-align: center;
+    text-align: justify;
     line-height: 30px;
     color: #A54C00;
   }
@@ -38,7 +49,10 @@ p{
       width: 100%;
   }
   #Hello {
-    font-size: 20px
+    font-size: 20px;
+    padding: 2rem;
+    font-weight: regular;
+    text-align: start;
   }
   #Stanley {
     font-size: 76px;
@@ -51,7 +65,10 @@ p{
         float: right;
         margin: 20px;
       }
-  
+  .logo {
+    background-color: #D8D1C1;
+    width: fit-content;
+  }
       ul.navbar li a {
         display: block;
         color: #A54C00;
@@ -64,9 +81,11 @@ p{
   }
   ul.skillsTools {
     color: #A54C00;
-    line-height: 21px;
+    line-height: 2rem;
     column-count: 2;
-    font-weight: bold;
+    font-weight: regular;
+    padding: 5rem;
+    list-style-type:circle;
   }
   .button {
     border: none;
@@ -82,4 +101,19 @@ p{
   }
   .resumeImg{
     position: center;
+  }
+  ul.Footer {
+    column-count: 3;
+    color: #A54C00;
+    line-height: 2rem;
+    padding: 5rem;
+    background: #e7e1d2;
+    height: fit-content;
+    padding: 3rem;
+    margin: 5rem;
+    margin-bottom: 0%;
+  }
+  .list-item-no-bullet {
+    list-style-type: none;
+    color:#505050;
   }
