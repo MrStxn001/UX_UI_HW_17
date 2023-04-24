@@ -36,7 +36,7 @@ width: 20%;
   }
   .HeroGrid {
     display: grid;
-    background-color: #D8D1C1;
+    background-color: #ffffff;
     height: 400px;
     grid-template-columns: 1fr 2fr;
     position: center;
@@ -45,20 +45,24 @@ width: 20%;
     padding: 50px;
     text-align: justify;
     line-height: 30px;
-    color: #A54C00;
+    color: #32312f;
   }
   img.profilepics{
-      width: 63%;
+      width: 75%;
   }
   #Hello {
-    font-size: 20px;
+    font-size: 32px;
     padding: 2rem;
     font-weight: regular;
+    color: #32312f;
     text-align: start;
   }
   #Stanley {
     font-size: 76px;
     font-weight: regular;
+  }
+  .skills{
+    padding-top: 5rem;
   }
   .top{
     grid-area: topRow;
@@ -82,11 +86,11 @@ width: 20%;
         background-color: #ddd;
   }
   ul.skillsTools {
-    color: #A54C00;
+    color: #32312f;
     line-height: 2rem;
     column-count: 2;
     font-weight: regular;
-    padding: 5rem;
+    padding: 1rem;
     list-style-type:circle;
   }
   .button {
