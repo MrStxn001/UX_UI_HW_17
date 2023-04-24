@@ -31,6 +31,9 @@ font-weight: bold;
   #heroGrid1 {
   
   }
+  img.logo{
+width: 20%;
+  }
   .HeroGrid {
     display: grid;
     background-color: #D8D1C1;
@@ -45,8 +48,7 @@ font-weight: bold;
     color: #A54C00;
   }
   img.profilepics{
-      height:83.5%;
-      width: 100%;
+      width: 63%;
   }
   #Hello {
     font-size: 20px;
